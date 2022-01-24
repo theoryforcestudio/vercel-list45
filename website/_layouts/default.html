@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><!--amp-->
+{% include head.html %}
+<body class="layout--{{ page.layout}}">
+  <div class="row container">
+    <header>
+      {% include header.html %}
+    </header>
+    <main>
+      <div class="row intext">
+        {{ content }}
+      </div>
+    </main>
+    <footer>
+        {% include footer.html %}
+    </footer>
+  </div>
+</body>
+</html>

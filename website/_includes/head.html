@@ -1,0 +1,20 @@
+<head>
+{% assign vn = site.time | date: '%s%N' %}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+{% if page.layout contains "notfound" %}<meta name="robots" content="noindex">{% endif %}
+
+<link rel="preload" as="style" href="{{ '/assets/style.css' | prepend: site.url }}?v={{ vn }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" hreflang="en" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="icon" type="image/x-icon" href="{{site.url}}/assets/favicon.ico">
+
+
+<title>
+  {% if page.title %}{{ page.title  | replace:"-"," " }} | {{ site.title }}{% else %}{{ site.title }} - {{ site.subtitle }}{% endif %}
+</title>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/style.css?v={{ vn }}">
+
+</head>

@@ -1,0 +1,16 @@
+title: List 45 - NFT trading
+email: hello@desk520.com
+description: "Decentralization is one of the words you would hear from crypto OGs all the time. In 2022 iteration of crypto markets, it is talked about less, but that does not make it less important."
+baseurl: ""
+url: ""
+twitter_username: tradingfanbois
+instagram_username:  bfx.referral.code
+medium_username: cryptolounge
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: _sass
+  style: compressed

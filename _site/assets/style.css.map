@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"website/_sass/variables.scss",
+		"website/_sass/page.scss"
+	],
+	"sourcesContent": [
+		"@charset \"utf-8\";\n\n@import \"css/normalize.min.css\";\n@import \"css/skeleton.min.css\";\n\n\n@import \"variables\";\n@import \"page\";\n",
+		"@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');\n$body-font-family: \"Lato\", Arial, sans-serif;\n$body-font-size: 16px;\n$head-font-family: \"Lato\", sans-serif;//\"Helvetica Neue Condensed Bold\", Arial, sans-serif;\n\n$black: #222 !default;\n$white: #fff !default;\n$lite: #f9f9f9 !default;\n$gray: #efefef !default;\n$dark: #757575 !default;\n$hilit: #7d57d1 !default; // purple\n",
+		"body {\n  position: relative;\n  color: $black;\n  background: $lite;\n}\n\nbody, p, blockquote {\n  font-family: $body-font-family;\n  font-weight: 400;\n}\nh1, h2, h3, h4, h5, h6 {\n  font-family: $head-font-family;\n  font-weight: 700;\n}\n\n\nheader {\n padding: 2em 3em;\n margin-top: 1em\n}\n\nmain {\n  margin: 1em 0;\n  padding: 4em 8em;\n  border: 1px solid $gray;\n  background: $white;\n\n  a {\n    color: $dark;\n    &:hover {\n      color: $hilit\n    }\n  }\n}\n\nfooter {\n   padding: 5em 0;\n  a, a:hover {\n    color: $dark\n  }\n}\n\n.center {\n  text-align: center;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAEA,OAAO,CAAP,0BAAO,CACP,OAAO,CAAP,yBAAO,CCHP,OAAO,CAAC,8EAAI,CCAZ,AAAA,IAAI,AAAC,CACH,QAAQ,CAAE,QAAQ,CAClB,KAAK,CDGC,IAAI,CCFV,UAAU,CDIL,OAAO,CCHb,AAED,AAAA,IAAI,CAAE,CAAC,CAAE,UAAU,AAAC,CAClB,WAAW,CDNM,MAAM,CAAE,KAAK,CAAE,UAAU,CCO1C,WAAW,CAAE,GAAG,CACjB,AACD,AAAA,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,AAAC,CACrB,WAAW,CDRM,MAAM,CAAE,UAAU,CCSnC,WAAW,CAAE,GAAG,CACjB,AAGD,AAAA,MAAM,AAAC,CACN,OAAO,CAAE,OAAO,CAChB,UAAU,CAAE,GACb,CAAC,AAED,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,OAAO,CAChB,MAAM,CAAE,GAAG,CAAC,KAAK,CDhBZ,OAAO,CCiBZ,UAAU,CDnBJ,IAAI,CC2BX,AAZD,AAME,IANE,CAMF,CAAC,AAAC,CACA,KAAK,CDnBF,OAAO,CCuBX,AAXH,AAQI,IARA,CAMF,CAAC,CAEG,KAAK,AAAC,CACN,KAAK,CDpBH,OAAO,CCqBV,AAIL,AAAA,MAAM,AAAC,CACJ,OAAO,CAAE,KAAK,CAIhB,AALD,AAEE,MAFI,CAEJ,CAAC,CAFH,MAAM,CAED,CAAC,CAAC,KAAK,AAAC,CACT,KAAK,CD7BF,OAAO,CC8BX,AAGH,AAAA,OAAO,AAAC,CACN,UAAU,CAAE,MAAM,CACnB"
+}
